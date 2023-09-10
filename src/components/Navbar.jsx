@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import  {useState} from "react";
 import { AiOutlineMenu, AiOutlineSearch , AiOutlineClose , AiFillTag } from "react-icons/ai";
 import { BsFillBasket2Fill , BsFillSaveFill } from "react-icons/bs";
 import { FaWallet , FaUserFriends } from "react-icons/fa";
@@ -8,8 +8,8 @@ import { MdFavorite , MdHelp } from "react-icons/md";
 
 
 function Navbar() {
-  const [nav , setNav] = useState(false)
-
+  const [nav , setNav] = useState(false);
+  console.log(`Navbar : ${nav}`);
 
   return (
     <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
